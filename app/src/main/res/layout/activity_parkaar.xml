@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="110dp"
+
+        android:background="#778899"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp">
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:onClick="borod"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/rounded1"
+
+        android:text="बोरो(हिउँदे) धान " />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+
+        android:onClick="chaited"
+        android:text="चैते धान" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+
+        android:onClick="bhadaiyaad"
+        android:text="भदैया धान " />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignLeft="@+id/button10"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+
+        android:textSize="18sp"
+        android:layout_alignStart="@+id/button10"
+        android:onClick="barkhed"
+        android:background="@drawable/rounded1"
+
+        android:text="बर्खे धान" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ghaiyaad"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/rounded1"
+
+            android:text="घैया धान" />
+
+    </LinearLayout>
+    </ScrollView>
+

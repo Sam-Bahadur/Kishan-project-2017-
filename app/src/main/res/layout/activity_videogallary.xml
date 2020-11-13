@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.madhu.kishann.videogallary"
+    android:weightSum="1">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_weight="0.07" />
+
+    <Button
+        android:id="@+id/playvideo"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="130dp"
+        android:layout_weight="0.07"
+        android:background="@drawable/play"
+        android:onClick="playvideo"
+        android:text=""/>
+</LinearLayout>

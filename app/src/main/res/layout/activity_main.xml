@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+            android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="11dp"
+        android:background="#778899"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="138dp"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="24dp"
+            android:layout_weight="0.35"
+            android:background="@color/primary_dark"
+            android:scaleType="fitXY"
+            android:src="@drawable/rice1"/>
+
+        <!--  Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:textColor="#ffffff"
+                android:hint="नाम"
+                android:inputType="textEmailAddress"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--  Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/passid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="गोप्य शब्द"
+                android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="30dp"
+            android:onClick="buttonclick"
+            android:padding="9dp"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:background="@drawable/design"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="लग इन"
+             />
+
+        <Button
+            android:id="@+id/sign"
+
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="2dp"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:background="@drawable/design"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="signup"
+            android:text="दर्ता गर्नुहोस्"
+
+            />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.madhu.kishann">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/capture"
+        android:label="किसान"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".signup"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Navigation"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".Rog" />
+        <activity android:name=".Khaire" />
+        <activity android:name=".Paatkofed" />
+        <activity android:name=".fedkuhine" />
+        <activity android:name=".paatmaruwa" />
+        <activity android:name=".parkaar" />
+        <activity android:name=".boro" />
+        <activity android:name=".chaite" />
+        <activity android:name=".Bhadaiyaa" />
+        <activity android:name=".Barkhe" />
+        <activity android:name=".Photogallery" />
+        <activity android:name=".Ghaiyaa" />
+        <activity android:name=".Blast" />
+        <activity android:name=".forum" />
+        <activity android:name=".Bacterialleaf" />
+        <activity android:name=".videogallary">
+            <activity android:name=".AboutUs" />
+        </activity>
+        <activity android:name=".ContactUs"></activity>
+    </application>
+
+</manifest>

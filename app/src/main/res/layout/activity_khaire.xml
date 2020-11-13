@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/khairep"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+    android:lineSpacingExtra="8sp"
+    android:textSize="18sp"
+        android:text="TextView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignLeft="@+id/khairep"
+                android:layout_alignStart="@+id/khairep"
+                android:layout_marginLeft="13dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@id/khairep"
+                app:srcCompat="@drawable/blast" />
+
+            <Button
+        android:id="@+id/audio_khaire"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/imageView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="107dp"
+        android:layout_marginStart="107dp"
+        android:background="@drawable/sound_on"
+        android:onClick="khaire_clickplay"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/audio_khairestop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:onClick="khaire_clickpause"
+        android:text=""
+        android:background="@drawable/sound_off"
+        android:layout_below="@id/imageView3"
+        android:layout_toRightOf="@+id/audio_khaire"
+        android:layout_toEndOf="@+id/audio_khaire" />
+
+        </RelativeLayout>
+    </ScrollView>

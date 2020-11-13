@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true" >
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="17dp"
+                app:srcCompat="@drawable/hilo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textSize="36dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="खेत जोत्दै " />
+
+            <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="5dp"
+        app:srcCompat="@drawable/harvest"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textSize="36dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:text="धान कटाई"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="17dp"
+                app:srcCompat="@drawable/bed" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textSize="36dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:text="धान ब्याड "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="17dp"
+                app:srcCompat="@drawable/transplant" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textSize="36dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+
+                android:text="रोपाइँ"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+        </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
